@@ -65,12 +65,9 @@
 <button class="button-18" role="button" style="text-align: center;" id="btn_play_audio">Продолжить</button>
   </div>
   <script>
-        const audio = document.getElementById('audio');
-
-        document.getElementById('btn_play_audio').addEventListener('click', function() {
-            audio.play().catch(function(error) {
-                console.log('Ошибка воспроизведения:', error);
-            });
+document.getElementById('btn_play_audio').addEventListener('click', function() {
+          const audio = document.getElementById('audio');  
+           audio.play();
         });
     </script>
     <audio id="audio" src="https://alpinecy.github.io/troll/music.mp3" preload="auto" hidden="">
