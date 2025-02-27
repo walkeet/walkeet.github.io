@@ -8,8 +8,61 @@
   <title>NFCTag</title>
   <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg text-alert" style=" font-family: 'Ubuntu';">
-<img class="warn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDElEQVR4nO3YTYhNUQDA8cM0oUkkpRRRilIWFAuLsZtihxWy8rEhHzspGuzQ7Niyo1mSxShKMgsLI2WjlFIyaUryOcxPp568mHn3vvvOe+/eer86dXvdzj3/Xr137gmhp6easDeOUGXYjF+1sTVUEebhkb+exM9C1WC//+0LVYJFeDNLyFsMhKrABXMbDlWAVfjcIOQL1oSyw23ZboUyw3bMyGcwlBHm46n8nqEvlA0Oa96hUCZYjHcFQt5jSSgLXFHc5VAGWIdvLYR8x/oyhNzVujvdjhjKWOAPTNVGvG5kqFsR/XiZsbjhnNsWtbn6uxFyUrZzdfefz3H/iU5HLMOHNoRMYXknQ67nWFSRkOhapyI2Ylr7Qn5iUydCxnIuqGhI9KDdEXs0p2hItLtdEQvwSudCXmNhO0LONrmQVkOiM6kjVuCjzod8wsqUITcLLCJFSHQjVcSW2klht0JmsC3FaeHjggtIFRKNt3RKiYNakyokOlA0YqB2MtiKZna/WYqdUuKS1jXzPpLHxWYjVmecFnbLV6xtJmQ00YOn676RvBvNLKN5I3ZI53TdvKcSzjuYFdGHiYQPPF4397GE8040PKXEUWm1KyQ6MlfEUkxKK+5g79dGvE5pMq55tpAR1XP134gNiX7nO206vnrXh9xTXWN/Inapvp0x5IXqex5DHqq+8YZ/kD09obDfSx/r+Qgn+vUAAAAASUVORK5CYII=" alt="ERROR!">
-<h1>This site on dev</h1>
+<body class="bg text-alert" style=" font-family: 'Ubuntu'; 
+
+/* CSS */
+button {
+  align-items: center;
+  background-color: #0A66C2;
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell, "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  max-width: 480px;
+  min-height: 40px;
+  min-width: 0px;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s, color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+button:hover,
+button:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+}
+
+button:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+button:disabled { 
+  cursor: not-allowed;
+  background: rgba(0, 0, 0, .08);
+  color: rgba(0, 0, 0, .3);
+}
+  .c {
+  text-align: center;
+  }">
+  <div id="content">
+    <img class="warn" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACDElEQVR4nO3YTYhNUQDA8cM0oUkkpRRRilIWFAuLsZtihxWy8rEhHzspGuzQ7Niyo1mSxShKMgsLI2WjlFIyaUryOcxPp568mHn3vvvOe+/eer86dXvdzj3/Xr137gmhp6easDeOUGXYjF+1sTVUEebhkb+exM9C1WC//+0LVYJFeDNLyFsMhKrABXMbDlWAVfjcIOQL1oSyw23ZboUyw3bMyGcwlBHm46n8nqEvlA0Oa96hUCZYjHcFQt5jSSgLXFHc5VAGWIdvLYR8x/oyhNzVujvdjhjKWOAPTNVGvG5kqFsR/XiZsbjhnNsWtbn6uxFyUrZzdfefz3H/iU5HLMOHNoRMYXknQ67nWFSRkOhapyI2Ylr7Qn5iUydCxnIuqGhI9KDdEXs0p2hItLtdEQvwSudCXmNhO0LONrmQVkOiM6kjVuCjzod8wsqUITcLLCJFSHQjVcSW2klht0JmsC3FaeHjggtIFRKNt3RKiYNakyokOlA0YqB2MtiKZna/WYqdUuKS1jXzPpLHxWYjVmecFnbLV6xtJmQ00YOn676RvBvNLKN5I3ZI53TdvKcSzjuYFdGHiYQPPF4397GE8040PKXEUWm1KyQ6MlfEUkxKK+5g79dGvE5pMq55tpAR1XP134gNiX7nO206vnrXh9xTXWN/Inapvp0x5IXqex5DHqq+8YZ/kD09obDfSx/r+Qgn+vUAAAAASUVORK5CYII=" alt="ERROR!">
+<h1>Произошла непредвиденная ошибка.</h1>
+<button class="c">1</button>
+  </div>
 </body>
 </html>
