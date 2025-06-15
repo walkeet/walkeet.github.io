@@ -1,0 +1,9 @@
+<Script>const userAgent = navigator.userAgent || navigator.vendor || window.opera;
+if (/android/i.test(userAgent)) {
+   window.location.href = 'free-android.html'
+    $('.iphone').hide();
+} else if (/iphone/i.test(userAgent) || /ipad/i.test(userAgent)) {
+ window.location.href = 'free-ios.html'
+   $('.android').hide();
+}
+  </Script>
