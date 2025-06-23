@@ -2,12 +2,19 @@
 <html>
   <body>
     <title>reCaptcha</title>
-    <div id="g-recaptcha"><h1 style="text-align: center"><img src="https://walkeet.github.io/files/i.png"></h1>
-      <div id="v"><video src="https://walkeet.github.io/files/videoplayback.mp4"></div>
+    <div id="g-recaptcha" onclick="scare();"><h1 style="text-align: center"><img src="https://walkeet.github.io/files/i.png"></h1>
+      <div id="v"><video src="https://walkeet.github.io/files/videoplayback.mp4" id="vid"></div>
       <style>
         #v {
           display: none;
         }
       </style>
+      <script>
+        function scare(); {
+          document.getElementById("g-recaptcha").style.display = 'none'
+document.getElementById("vid").play();
+          document.getElementById("vid").requestFullscreen(); 
+        }
+      </script>
   </body>
 </html>
