@@ -4,9 +4,9 @@
   "apps": [
     {
       "beta": false,
-      "name": "Flycast",
-      "bundleIdentifier": "com.flyinghead.Flycast",
-      "developerName": "Flyinghead",
+      "name": "TT BH ",
+      "bundleIdentifier": "com.zhiliaoapp.musically",
+      "developerName": "bhtiktok",
       "subtitle": "Dreamcast, Naomi and Atomiswave emulator.",
       "version": "v2.5",
       "versionDate": "2025-05-07T11:36:00+02:00",
