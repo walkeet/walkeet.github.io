@@ -1,37 +1,37 @@
 {
-  "name": "TikTok Mod Source",
-  "subtitle": "Download TikTok Mod here!",
-  "description": "Welcome to my source! Here you'll find TikTok Mod.",
-  "iconURL": "https://i.imgur.com/jbycjrP.png",
-  "website": "https://altstudio.app",
-  "patreonURL": "https://patreon.com/altstudio",
+  "name": "TikTok AltStore (BH++)",
+  "subtitle": "TG: @tiktok_altstore",
+  "description": "BH++ TikTok here.",
+  "iconURL": "https://i.imgur.com/rHzcozL.png",
+  "website": "https://t.me/tiktok_altstore",
+  "patreonURL": "",
   "tintColor": "#6156e2",
-  "featuredApps": [],
-  "headerURL": "https://i.imgur.com/nhHq9ly.png",
+  "featuredApps": [
+    "com.zhiliaoapp.musically"
+  ],
   "apps": [
     {
       "name": "TikTok BH++",
       "bundleIdentifier": "com.zhiliaoapp.musically",
       "marketplaceID": "",
-      "developerName": "t.me/tiktok_altstore",
-      "subtitle": "",
-      "localizedDescription": "t.me/tiktok_altstore TG: @altstore\nНе работает вход через Apple ID\nApple ID login not working",
-      "iconURL": "https://i.imgur.com/jbycjrP.png",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/rHzcozL.png",
       "tintColor": "#7f7f7f",
-      "category": "social",
+      "category": "other",
       "screenshots": [],
-      "versions":[
-  {
-    "version": "39.9.0",
-    "buildVersion": "60",
-    "date": "2025-03-13",
-    "localizedDescription": "TikTok BH++!",
-    "downloadURL": "https://myapp.com/myapp-1.0.ipa",
-    "size": 304419,
-    "minOSVersion": "13.0",
-    "maxOSVersion": "18.5"
-  }
-],
+      "versions": [
+        {
+          "downloadURL": "https://pixeldrain.com/api/file/WpdjJEvy?download",
+          "size": 311700000,
+          "version": "39.1.0",
+          "buildVersion": "1",
+          "date": "2025-03-12T17:10:00+07:00",
+          "localizedDescription": null,
+          "minOSVersion": "13.0"
+        }
+      ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
