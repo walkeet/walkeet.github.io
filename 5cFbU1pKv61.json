@@ -1,26 +1,59 @@
 {
-  "name": "Test",
-  "identifier": "com.zhiliaoapp.tiktok",
+  "name": "My Example Source",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
+  "website": "https://altstudio.app",
+  "patreonURL": "https://patreon.com/altstudio",
+  "tintColor": "#6156e2",
+  "featuredApps": [],
   "apps": [
     {
-      "beta": false,
-      "name": "TT BH ",
+      "name": "TikTok",
       "bundleIdentifier": "com.zhiliaoapp.musically",
-      "developerName": "bhtiktok",
-      "subtitle": "Dreamcast, Naomi and Atomiswave emulator.",
-      "version": "39.1.0",
-      "versionDate": "2025-05-07T11:36:00+02:00",
-      "versionDescription": "DCNet support, new on-screen gamepad",
-      "downloadURL": "https://github.com/walkeet/walkeet.github.io/releases/download/tt/TikTok_39.1.0+BHTikTokPlusPlus.ipa",
-      "localizedDescription": "Flycast is a Dreamcast, Naomi, Naomi 2 and Atomiswave emulator.",
-      "iconURL": "https://github.com/flyinghead/flycast/raw/master/shell/linux/flycast.png",
-      "tintColor": "9b54fd",
-      "size": 8161611,
-      "screenshotURLs": [
-        "https://github.com/flyinghead/flycast/raw/master/shell/imgs/screenshot1.png",
-        "https://github.com/flyinghead/flycast/raw/master/shell/imgs/screenshot2.png",
-        "https://github.com/flyinghead/flycast/raw/master/shell/imgs/screenshot3.png"
-      ]
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/qFA0nub.png",
+      "tintColor": "#7f7f7f",
+      "category": "social",
+      "screenshots": [
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource124/v4/59/b1/0c/59b10c20-d53e-fc3c-c581-0e3fce4b27e9/85e19301-f6ca-4300-ae58-462325334001_img6_5_2_nl-NL.jpg/230x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/9b/98/60/9b986099-a904-d167-111e-d979097778b5/90d6431b-da14-4262-a712-602c4df51bb4_img6_5_1_nl-NL.jpg/230x0w.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource114/v4/d5/7d/31/d57d3198-89c4-ce62-157d-a3b99795ed5d/5f24352e-c9e8-4a25-b5a0-6e5ff1dfb71e_img6_5_0_nl-NL.jpg/230x0w.webp"
+      ],
+      "versions": [
+        {
+          "downloadURL": "https://github.com/walkeet/walkeet.github.io/releases/download/tt/TikTok_39.1.0+BHTikTokPlusPlus.ipa",
+          "size": 311700000,
+          "version": "39.1.0",
+          "buildVersion": "100",
+          "date": "2025-07-02T15:11:00+07:00",
+          "localizedDescription": null,
+          "minOSVersion": "15.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {
+          "NSAdvertisingAttributionReportEndpoint": "https://byteintl-ugpaidads.com",
+          "NSAppleMusicUsageDescription": "To select sound from your library, allow us to access your Apple Music.",
+          "NSBluetoothAlwaysUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+          "NSBluetoothPeripheralUsageDescription": "This will allow \"TikTok\" to find and connect to Bluetooth accessories. This app may also use Bluetooth to connect with nearby devices.",
+          "NSCalendarsUsageDescription": "Add events to your device calendar to get reminders when events start.",
+          "NSCameraUsageDescription": "You'll be able to record video.",
+          "NSContactsUsageDescription": "Sync your contacts to easily find people you know on TikTok. Your contacts will only be used to help you connect with friends.",
+          "NSLocalNetworkUsageDescription": "The TikTok app will be able to discover and connect with devices that have the TikTok app installed for camera and screen sharing.",
+          "NSLocationWhenInUseUsageDescription": "If location services are enabled, TikTok will collect, store and use your device's approximate location to improve your experience.",
+          "NSMicrophoneUsageDescription": "To record audio, allow us to access your Microphone.",
+          "NSPhotoLibraryAddUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+          "NSPhotoLibraryUsageDescription": "To upload from or download to your device, allow access to your photos in your phone settings.",
+          "NSUserTrackingUsageDescription": "This allows TikTok to provide you with a better ads experience."
+        }
+      },
+      "patreon": {}
     }
-  ]
+  ],
+  "news": []
 }
