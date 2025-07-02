@@ -1,5 +1,5 @@
 {
-  "name": "My Example Source",
+  "name": "My Personal Source",
   "subtitle": "A source for all of my apps",
   "description": "Welcome to my source! Here you'll find all of my apps.",
   "iconURL": "https://i.imgur.com/pqIZoZo.jpeg",
@@ -25,7 +25,7 @@
       ],
       "versions": [
         {
-          "downloadURL": "https://github.com/walkeet/walkeet.github.io/releases/download/tt/TikTok_39.1.0+BHTikTokPlusPlus.ipa",
+          "downloadURL": "https://github.com/walkeet/walkeet.github.io/releases/download/tt11/TikSigned.ipa",
           "size": 311700000,
           "version": "39.1.0",
           "buildVersion": "100",
